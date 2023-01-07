@@ -8,7 +8,7 @@
 }
 
 .banner {
-    background: url("/images/banner/banner2.png") no-repeat;
+    background: url("/images/banner/banner2.png");
     width: 100vw;
     height: 800px;
     margin: 0;
@@ -238,6 +238,6 @@ textarea {
     padding: 10px 20px;
 }
 
-input {
+/* input {
     height: 30px;
-}
+} */
