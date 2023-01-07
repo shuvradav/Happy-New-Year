@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.main_div {
+    position: relative;
+}
+
 .banner {
     background: url("/images/banner/banner2.png") no-repeat;
     width: 100vw;
@@ -53,7 +57,7 @@
     width: 525px;
     height: 525px;
     border-radius: 50%;
-    background-color: #bb5d0f;
+    background-color: #f5ad72;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -91,6 +95,7 @@
 .call_now {
     padding: 0px 200px;
     position: relative;
+    height: 450px;
 }
 
 .gradient_image {
@@ -123,4 +128,116 @@
     color: #bb5d0f;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* *{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+} */
+.what-i-do {
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+/* .section-description{
+    /* color: #757575; */
+/* font-size: 18px;
+margin-bottom:30px;
+} */
+.skills-container {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+
+
+
+.footer_main {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.footer_title {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.future {
+    width: 400px;
+}
+
+.future a {
+    text-decoration: none;
+    gap: 20px;
+
+}
+
+.footer_description {
+    font-size: 14px;
+    margin-top: 30px;
+    color: rgb(243, 243, 239);
+}
+
+.sub-btn {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.btn-primary {
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px;
+    height: 45px;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+
+}
+
+.future input[type="email"],
+textarea {
+    margin-bottom: 15px;
+    border: 0;
+    width: 50%;
+    padding: 10px 20px;
+}
+
+input {
+    height: 30px;
 }
